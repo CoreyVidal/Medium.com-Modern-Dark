@@ -1,4 +1,5 @@
-# Medium Modern Dark  
+# Medium Modern Dark
+
 Dark mode/style/theme for Medium.com.
 
 ## Preview
@@ -23,12 +24,14 @@ Once Stylus is installed:
 
 ![Install Latest Version](https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg)
 
+This style does have an official presence on userstyles.org, which you can install here if you want: https://userstyles.org/styles/186110/medium-modern-dark   
+...but don't do that—that website sucks.
+
 ## History
 
 Medium used to have a [number of working themes on userstyles.org](https://userstyles.org/styles/browse/medium), but then last year Medium completely changed their website and obscured their style names with random letters. There doesn't seem to be any maintained themes since this switch, so I took a crack at it.
 
 This style is based on [this code](https://gist.github.com/xenogew/1339ef3b43b966a148114ce0c40f4ede) I found by [xenogew](https://gist.github.com/xenogew), (last updated September 2019) who based their work off of [this old userstyle](https://widget.userstyles.org/styles/167953/medium-dark) by [ultimatetoast27](https://widget.userstyles.org/users/726366) (last updated January 2019).
-
 
 ## Notes
 
