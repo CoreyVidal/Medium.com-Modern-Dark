@@ -11,7 +11,7 @@
 
 ==/UserStyle== */
 
-@-moz-document domain("medium.com") {
+@-moz-document domain(medium.com) {
 /*dark-dark*/
 .u-backgroundTransparentWhiteDarkest,
 .u-backgroundGrayLightest,
