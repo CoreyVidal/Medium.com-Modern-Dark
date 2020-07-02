@@ -1,4 +1,15 @@
-/*Dark Stuff*/
+/* ==UserStyle==
+@name         Medium Modern Dark
+@description  Dark mode/style/theme for Medium.com
+@namespace    github.com/CoreyVidal/Medium.com-Modern-Dark
+@homepageURL  https://github.com/CoreyVidal/Medium.com-Modern-Dark
+@supportURL   https://github.com/CoreyVidal/Medium.com-Modern-Dark/issues
+@updateURL    https://raw.githubusercontent.com/CoreyVidal/Medium.com-Modern-Dark/master/medium-modern-dark.user.css
+@author       Corey Vidal
+@version      1.0
+@preprocessor stylus
+
+==/UserStyle== */
 
 /*dark-dark*/
 .u-backgroundTransparentWhiteDarkest, .u-backgroundGrayLightest, .extremePromo, .u-background--brandSageLighter, .metabar-block, .textInput, .metabar, .h, .ky {
