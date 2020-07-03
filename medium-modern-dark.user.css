@@ -12,6 +12,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("medium.com") {
+
 /*dark-dark*/
 .u-backgroundTransparentWhiteDarkest,
 .u-backgroundGrayLightest,
@@ -50,6 +51,17 @@ article,
 /*dropshadow*/
 .x {
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*Front page top bar with transparency*/
+.l {
+    background-color: rgba(47, 47, 47, 0.95)
+}
+
+
+/* Front page top bar Medium logo */
+.aj {
+    fill: white;
 }
 
 /*text*/
