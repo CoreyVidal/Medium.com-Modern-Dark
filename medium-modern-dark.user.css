@@ -6,7 +6,7 @@
 @supportURL   https://github.com/CoreyVidal/Medium.com-Modern-Dark/issues
 @updateURL    https://raw.githubusercontent.com/CoreyVidal/Medium.com-Modern-Dark/master/medium-modern-dark.user.css
 @author       Corey Vidal
-@version      1.1.0
+@version      1.1.1
 @preprocessor stylus
 
 ==/UserStyle== */
@@ -46,7 +46,7 @@ rgba(255, 255, 255, 0.6);
 .metabar-block,
 .textInput,
 .metabar,
-.h,
+.h
 /*.ky*/ {
     background-color: #292929 !important;
     color: #d5d5d5;
