@@ -13,6 +13,31 @@
 
 @-moz-document domain("medium.com") {
 
+    
+/*
+White text:
+F5F5F5
+a.k.a.
+rgba(255, 255, 255, 0.95);
+
+High text:
+E8E8E8
+aka
+rgba(255, 255, 255, 0.87)
+
+Medium text:
+D5D5D5
+aka
+rgba(255, 255, 255, 0.76);
+
+Low text:
+ACACAC
+aka
+rgba(255, 255, 255, 0.6);
+
+
+*/
+    
 /*dark-dark*/
 .u-backgroundTransparentWhiteDarkest,
 .u-backgroundGrayLightest,
@@ -22,7 +47,7 @@
 .textInput,
 .metabar,
 .h,
-.ky {
+/*.ky*/ {
     background-color: #292929 !important;
     color: #d5d5d5;
 }
@@ -48,9 +73,24 @@ article,
     background-color: #2f2f2fd6
 }
 
+
+/*---------------COREY BEGINS---------------*/
+
 /*dropshadow*/
+/* by doing this, we accidentally put drop shadows on the front page as well*/
+/*
 .x {
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+*/
+
+.x {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    border-color: transparent !important;
+}
+
+.c {
+    border-color: transparent !important;
 }
 
 /*Front page top bar with transparency*/
@@ -58,20 +98,77 @@ article,
     background-color: rgba(47, 47, 47, 0.95)
 }
 
-
 /* Front page top bar Medium logo */
+.an,
+.q,
 .aj {
-    fill: white;
+    fill: rgba(255, 255, 255, 0.95);
 }
+
+/*
+#lo-homepage-no-ads-title {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#lo-homepage-no-ads-sub-title {
+    color: rgba(255, 255, 255, 0.76);
+}
+*/
+
+.au {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+
+.h2 {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.h3 {
+    color: rgba(255, 255, 255, 0.76);
+}
+
+/*Front page chips background colour*/
+.de {
+    background-color: #292929;
+}
+
+/*Front page chips background colour selected*/
+/*But also footer table colour when you're locked out*/
+.fs {
+    background-color: /*This is intentionally left blank*/
+}
+
+/*Front page chips hover overlay*/
+.do:hover {
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+/*Front page chips icon shadow*/
+.dp {
+    box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.08);
+}
+
+/*Front page chips font colour*/
+.dg {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*Front page footer alternate text colour*/
+.ke {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+
 
 /*text*/
 /*text general*/
 .uiScale .ui-captionStrong,
 .uiScale .ui-caption,
-h1,
+/*h1,
 h2,
 h3,
-h4,
+h4,*/
 .imageCaption,
 .button--chromeless:active,
 .button--chromeless:focus,
@@ -135,6 +232,7 @@ a:hover {
 .y {
     fill: #06e988 !important;
 }
+
 /*Transparency hole*/
 .metabar-block div {
     background-color: transparent !important;
@@ -171,4 +269,104 @@ div.u-borderTopLighter {
     clip: rect(0px 18px 15px -4px);
     z-index: 1000;
 }
+}
+
+
+
+
+
+/*Front page sign in modal, but also mid-article scrim*/
+.lr {
+    background-color: transparent;
+}
+
+/*Front page sign in modal*/
+.lh {
+    background-color: #292929;
+}
+
+/*Front page sign in social media buttons*/
+.v {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+/*Article title*/
+.cz {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+/*Article alt title*/
+.og {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+/*Article alt title*/
+.gu {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+/*Article pre-footer*/
+.rj {
+    background-color: #292929;
+}
+
+/*Article alt pre-footer*/
+.vl {
+    background-color: #292929;
+}
+
+/*Article alt pre-footer*/
+.qc {
+    background-color: #292929;
+}
+
+/*Article alt pre-footer header text*/
+.fu {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+/*Article alt pre-footer header text*/
+.fo {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+/*Article alt pre-footer body text*/
+.da {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+/*Article pre-footer title backgrounds*/
+.ch {
+    background-color: transparent;
+}
+
+/*Mid-article random background colour blocks*/
+.ld {
+    background-color: #2f2f2f;
+}
+
+/*Article footer title backgrounds*/
+.ri {
+    background-color: #050505;
+}
+
+
+/*Scrim gradient when locked out of article*/
+.ml {
+    background: linear-gradient(rgba(47, 47, 47, 0), rgba(47, 47, 47, 0.5), rgba(47, 47, 47, 1));
+}
+
+/*Text header locked out of article*/
+.fw {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/*Profile/Settings pop-out in top-right corner*/
+.u-resetSpectrum .u-baseColor--buttonDark {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.button--chromeless:hover, .button--link:active {
+    color: rgba(255, 255, 255, 0.87) !important;
 }
